@@ -7,7 +7,7 @@ const wsWeb3Provider = 'ws://104.238.173.226:8545/ws'; // WebSocket URL
 const tokenABI = require('./token.json');
 const tokenAddress = '0xF7dC07AC084198485E15a50c7b7Af882b36DCF3B';
 
-const privateKey = '0x3de5569ae7564bb4e7ace4ab200faa4928f2436dfa3904a985dd6f0da504d753'; 
+const privateKey = 'ADD_PRIVATE_KEY'; 
 
 const web3Ws = new Web3(new Web3.providers.WebsocketProvider(wsWeb3Provider));
 
